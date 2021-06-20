@@ -1,0 +1,8 @@
+Composition (Part of)
+- If employee is deleted, the salary object is automatically deleted.
+- Salary class depends on Employee class.
+
+Aggregration (Has) which means Salary is not part of Employee class. It is just Employee has Salary.
+- If employee is deleted, the salary object is survived.
+- Both classes are independent.
+- The association between salary and employee is unidirectional. Only salary can be passed to employee class.
